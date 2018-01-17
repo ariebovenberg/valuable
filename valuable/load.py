@@ -168,7 +168,7 @@ def set_loader(subloaders, value):
     return set(map(loader, value))
 
 
-if sys.version_info >= (3, 6):
+if hasattr(t.Union, '__origin__'):
     def get_optional_loader(cls: t.Type[T], main: Registry) -> Loader[T]:
         """a combinable registry for optional types"""
         if _is_optional_type(cls):
@@ -227,7 +227,7 @@ simple_registry = PrimitiveRegistry({
 }) | get_optional_loader | AutoDataclassRegistry()
 
 
-if sys.version_info >= (3, 6):
+if hasattr(t.Union, '__origin__'):
     def _is_optional_type(cls):
         """determine whether a class is an Optional[...] type"""
         try:
