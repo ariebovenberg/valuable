@@ -13,7 +13,7 @@ history = local_path('HISTORY.rst').read_text()
 setup(
     name='valuable',
     version=metadata['__version__'],
-    description='functional-style serialization tools',
+    description='modular serialization tools',
     license='MIT',
     long_description=readme + '\n\n' + history,
     url='https://github.com/ariebovenberg/valuable',
