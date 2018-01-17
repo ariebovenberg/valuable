@@ -20,6 +20,11 @@ Valuable
     :target: http://valuable.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
+.. image:: https://api.codeclimate.com/v1/badges/4779d55349b428fb1954/maintainability
+   :target: https://codeclimate.com/github/ariebovenberg/valuable/maintainability
+   :alt: Maintainability
+
+
 (work in progress)
 
 modular serialization tools
