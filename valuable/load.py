@@ -6,7 +6,6 @@ Todo
 * auto namedtuple registry
 """
 import abc
-import sys
 import typing as t
 from datetime import datetime
 from functools import partial
