@@ -22,7 +22,7 @@ setup(
     author_email='a.c.bovenberg@gmail.com',
 
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 7 - Inactive',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
 

@@ -1,11 +1,7 @@
-.PHONY: docs test build publish clean
+.PHONY: test build publish clean
 
 init:
 	pip install -r requirements/dev.txt
-
-docs:
-	@touch docs/api.rst  # ensure api docs always rebuilt
-	make -C docs/ html
 
 test:
 	detox
